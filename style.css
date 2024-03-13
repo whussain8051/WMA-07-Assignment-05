@@ -130,24 +130,67 @@
     font-size: 30px;
     color: white;
 }
-#AI-Podcast {
+.projects {
     width: 100%;
     display: flex;
     gap: 50px;
     justify-content: center;
 }
-#AI-Data{
+.L-D{
     width: 30%;
 }
-#AI-Data h{
+.L-D h{
     font-size: 20px;
     color: white;
     font-weight: 700;
 }
-#AI-Data p{
+.L-D p{
     font-size: 20px;
     color: #C4DAD9;
 }
-#AI-Image{
+.R-I{
     width: 50%;
+}
+
+.L-I{
+    width: 50%;
+}
+.R-D{
+    width: 30%;
+}
+.R-D h {
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
+}
+.R-D p{
+    font-size: 20px;
+    color: #C4DAD9;
+}
+
+#other-pro{
+    width: 100%;
+    height: auto;
+}
+#other-pro h1{
+    text-align: center;
+    color: #C4DAD9;;
+}
+.row {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.card{
+    width: 25%;
+    height: 350px;
+    background-color: #023a5f;
+    border-radius: 5px;
+}
+.card2{
+    width: 25%;
+    height: 300px;
+    background-color: #023a5f;
+    border-radius: 5px;
 }
