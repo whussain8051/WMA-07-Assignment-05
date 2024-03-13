@@ -1,0 +1,153 @@
+* {
+    font-family: sans-serif;
+    background-color: #011F4B;
+}
+
+#navbar {
+    display: flex;
+    justify-content:space-between;
+    width: 94.5%;
+    padding: 20px 40px;
+    height: 40px;
+    /* background-color: orange; */
+    align-items: center;
+}
+
+#logo-side {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    width: 30px;
+    height: 30px;
+    font-size: 25px;
+    color: #31FDF4;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+
+#btn-side {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding: 20px ;
+    width: 75%;
+    height: 100%;
+    gap: 30px;
+    font-size: 20px;
+}
+
+#btn-side a {
+    color: white;
+    padding: 20px;
+}
+#btn-side a:hover{
+    color: #31FDF4;
+}
+
+#self-intro {
+    width: 60%;
+    padding: 50px;
+}
+#self-intro p{
+    font-size: 20px;
+}
+
+#self-intro h1 {
+    font-size: 80px;
+    color: white;
+}
+
+#self-intro h2 {
+    font-size: 60px;
+    color: #C4DAD9;
+}
+
+#about-me{
+    width: 100%;
+    height: auto;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    /* padding: 20px; */
+}
+#about-me-info{
+    width: 50%;
+    height: auto;
+}
+#about-me-info h1{
+    font-size: 30px;
+    color: white;
+}
+#about-me-info p{
+    font-size: 20px;
+    color: #C4DAD9;
+}
+#about-me-info div{
+    display: flex;
+}
+#about-me-info li{
+    color: #C4DAD9;
+}
+
+#about-image {
+    width: 30%;
+    height: 100%;
+    border: 2px solid #31FDF4;
+    padding: 10px;
+}
+
+#Experience {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    /* padding: 20px; */
+    gap: 50px;
+}
+#Experience h1{
+    font-size: 30px;
+    color: white;
+}
+#exp-heading{
+    width: 30%;
+    height: auto;
+    font-size: 20px;
+    color: #C4DAD9;
+}
+#exp-data{
+    width: 50%;
+    font-size: 20px;
+    color: #C4DAD9;
+}
+
+#works {
+    width: 80%;
+    height: auto;
+    padding-left: 90px;
+}
+#works h1{
+    font-size: 30px;
+    color: white;
+}
+#AI-Podcast {
+    width: 100%;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+#AI-Data{
+    width: 30%;
+}
+#AI-Data h{
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
+}
+#AI-Data p{
+    font-size: 20px;
+    color: #C4DAD9;
+}
+#AI-Image{
+    width: 50%;
+}
